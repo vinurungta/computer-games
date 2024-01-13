@@ -1,0 +1,86 @@
+<html>
+
+<head>
+<title>feedback</title>
+
+<style>
+	h1{color:darkcyan;
+	text-shadow:1px 1px;
+	}
+	h3{color:darkmagenta;
+	}
+	body{
+	background-image:url('download.jpeg');
+	}
+	p{background-color:deepskyblue;
+}
+.header{background-color:powderblue;padding:20px}
+ul {float:left;padding:2px 0;}
+.container {width:99%;margin:0px;}
+header {background-color:orange;}
+header::after{ content:""; display:table; clear:both;}
+.logo {float:left; padding:2px 0; }
+nav {float:left;}
+nav ul {margin:0px;padding:0px;list-style-type:none;}
+nav li {display:inline-block;margin-left:50px;padding:top 40px;position:relative;}
+nav a {color:darkviolet;text-transform:uppercase;font-size:15px;text-decoration:none;}
+nav a:hover {color:blue;}
+nav a::before { content:''; display:block; height:5px; background-color:#444; position:absolute; top:0; width:0%; transition:all ease-in-out 250ms; }
+nav a:hover::before { width:100%; }
+
+</style>
+
+</head>
+
+
+<body>
+<center><form name='feedback' method='post' action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfHzi5l4OaptyVYqmlc0GXOC40zGvCh-jc_clTRmcpSV5rysA/formResponse">
+
+<h1>Feedback</h1>
+<header>
+<div class="container">
+	 		<h1 class="logo">
+			</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="minecraft.html">Minecraft</a></li>
+					<li><a href="roblox.html">Roblox</a></li>
+					<li><a href="fortnite.html">Fortnite</a></li>
+					<li><a href="Breath of the wild.html">Zelda Breath of the Wild</a></li>
+                                        <li><a href="rocket league.html">Rocket League</a></li>
+                                        <li><a href="fnaf.html">Five Nights of Freddys</a></li>
+                                        <li><a href="Feedback.html">Feedback</a></li>
+				</ul>
+			</nav>
+	 	</div>
+</header>
+<br><br><br>
+<h2><p>
+          Email:<input type='text' name='entry.1904791943' size= 25>
+	 <br><br><br>
+         What is your favourite game?<br>
+	 <input type='checkbox' name='entry.854488563' value='minecraft'>
+	 <label for='minecraft'>minecraft</label><br>
+
+	 <input type='checkbox' name='entry.854488563' value='roblox'>
+	 <label for='roblox'>roblox</label><br>
+	 <input type='checkbox' name='entry.854488563' value='fortnite'>
+	 <label for='fortnite'>fortnite</label><br>
+	 <input type='checkbox' name='entry.854488563' value='zelda'>
+	 <label for='zelda'>zelda</label><br>
+	 <input type='checkbox' name='entry.854488563' value='Rocket league'>
+	 <label for='Rocket league'>Rocket league</label><br>
+         <input type='checkbox' name='entry.854488563' value="Five Nights At Freddy's 2">
+         <label for='Five Nights At Freddy's 2'>Five Nights At Freddy's 2</label><br>
+	 <br><br>
+
+	 <input type='submit' onclick='return check(this.form)' value='submit'>
+	 <input type='reset'>
+	 <br><br>
+	 <a href='index.html'>back</a>
+</p>
+</h2></form>
+</center>
+</body>
+</html>
